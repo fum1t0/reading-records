@@ -1,0 +1,78 @@
+{
+  "filters": {},
+  "rules": {
+    "preset-ja-spacing" : {
+      // 半角と全角の間にスペースを入れる
+      "ja-space-between-half-and-full-width": {
+        space: "always",
+        exceptPunctuation: true
+      },
+      // インラインコードの周りにスペースを入れる
+      "ja-space-around-code": true,
+      // 全角同士の間にスペースを入れない
+      "ja-no-space-between-full-width": true,
+      // カッコの外側・内側ともにスペースを入れない
+      "ja-no-space-around-parentheses": true,
+      // !のあとに全角スペースを強制しない
+      "ja-space-after-exclamation": false,
+      // ?のあとに全角スペースを強制しない
+      "ja-space-after-question": false,
+      // カタカナ語間は中黒または半角スペースを用いてカタカナ語を区切る
+      "ja-nakaguro-or-halfwidth-space-between-katakana": true
+    },
+    "preset-ja-technical-writing": {
+      // 漢数字と算用数字使い分け
+      "arabic-kanji-numbers": true,
+      // 1文の長さ
+      "sentence-length" : {
+        max: 300
+      },
+      // ら抜き言葉不使用
+      "no-dropping-the-ra": true,
+      // 助詞の重複を禁止
+      "no-doubled-joshi": {
+        "min_interval": 1
+      },
+      // 二重否定不可
+      "no-double-negative-ja": true,
+      // 逆説の接続助詞「が」の連続使用禁止
+      "no-doubled-conjunctive-particle-ga": true,
+      // 同じ接続詞の連続使用不可
+      "no-doubled-conjunction": true,
+      // 感嘆符の利用可
+      "no-exclamation-question-mark": false,
+      // \nなどの制御文字を許可
+      "no-invalid-control-character": false,
+      // 〜かもしれないなどの弱い表現を許可
+      "ja-no-weak-phrase": false,
+      // 日本語の誤用チェック
+      "ja-no-abusage": true,
+      // 冗長表現チェック
+      "ja-no-redundant-expression": true,
+      // typoチェック
+      "ja-unnatural-alphabet": true,
+      // カッコ（ () )）のチェック
+      "no-unmatched-pair": true,
+      // 単語連続を検知
+      "ja-no-successive-word": true,
+      // 読点（，）の個数を制限
+      "max-ten": {
+        max: 3
+      },
+      "ja-no-mixed-period": {
+             // 優先する句点文字
+             "periodMark": "。",
+             // 句点文字として許可する文字列の配列
+             "allowPeriodMarks": ['．'],
+             // 末尾に絵文字を置くことを許可するか
+             "allowEmojiAtEnd": false,
+             // 句点で終わって無い場合に`periodMark`を--fix時に追加するかどうか
+             "forceAppendPeriod": false
+      },
+      // カンマの個数を制限
+      "max-comma": false,
+      // ですますチェックを無効化
+      "no-mix-dearu-desumasu": false
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "reading-records",
+  "version": "1.0.0",
+  "description": "読書メモ",
+  "main": "index.js",
+  "scripts": {
+    "test": "textlint '*.md' && textlint 'docs/**.md'"
+  },
+  "lint-staged": {
+    "*.md": [
+      "yarn test"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4m1t0/reading-records.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4m1t0/reading-records/issues"
+  },
+  "homepage": "https://github.com/4m1t0/reading-records#readme",
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.6",
+    "textlint": "^11.6.3",
+    "textlint-filter-rule-whitelist": "^2.0.0",
+    "textlint-rule-preset-ja-spacing": "^2.0.1",
+    "textlint-rule-preset-ja-technical-writing": "^3.1.3",
+    "textlint-rule-spellcheck-tech-word": "^5.0.0"
+  }
+}
