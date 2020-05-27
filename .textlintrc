@@ -8,7 +8,7 @@
         exceptPunctuation: true
       },
       // インラインコードの周りにスペースを入れる
-      "ja-space-around-code": true,
+      "ja-space-around-code": false,
       // 全角同士の間にスペースを入れない
       "ja-no-space-between-full-width": true,
       // カッコの外側・内側ともにスペースを入れない
@@ -33,10 +33,14 @@
       "no-doubled-joshi": {
         "min_interval": 1
       },
+      // 連続できる最大の漢字長は10文字まで
+      "max-kanji-continuous-len": {
+        max: 10
+      },
       // 二重否定不可
       "no-double-negative-ja": true,
       // 逆説の接続助詞「が」の連続使用禁止
-      "no-doubled-conjunctive-particle-ga": true,
+      "no-doubled-conjunctive-particle-ga": false,
       // 同じ接続詞の連続使用不可
       "no-doubled-conjunction": true,
       // 感嘆符の利用可

@@ -8,6 +8,7 @@
 - Technologies
   - Theoretical Computer Science
   - Computer Systems
+    - [コンピュータシステムの理論と実装](docs/records/technologies/computer_systems/コンピュータシステムの理論と実装.md)
   - Computer Applications
   - Software Engineering
 - Design
@@ -27,7 +28,6 @@
       - アルゴリズムイントロダクション
       - 世界で闘うプログラミング力を鍛える本
     - Computer Systems
-      - コンピュータシステムの理論と実装
       - 私はどのようにして Linux カーネルを学んだか
       - Linux のしくみ
       - ふつうの Linux プログラミング
