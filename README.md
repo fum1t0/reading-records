@@ -15,6 +15,7 @@
 - Business
   - Business Life
   - Decision Making & Problem Solving
+    - [アイデアのつくり方](docs/records/business/decision_making_and_problem_solving/アイデアのつくり方.md)
   - Management
 - English
 - Pending
@@ -140,7 +141,6 @@
       - 戦術の本質
       - 問題解決のジレンマ
       - 考具
-      - アイデアのつくり方
       - UNIX という考え方
   - English
     - 英文の読み方
