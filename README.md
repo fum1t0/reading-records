@@ -17,6 +17,7 @@
   - Decision Making & Problem Solving
     - [アイデアのつくり方](docs/records/business/decision_making_and_problem_solving/アイデアのつくり方.md)
   - Management
+    - [ファシリテーションの教科書](docs/records/business/management/ファシリテーションの教科書.md)
 - English
 - Pending
   - Technologies
