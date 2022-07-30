@@ -120,6 +120,7 @@
       - ONE MISSION
       - データを正しく見るための数学的思考
     - Management
+      - WORK RULES
       - TEAM OF TEAMS
       - コーチングのプロが教える「ほめる」技術
       - 折れないリーダーの仕事
