@@ -28,6 +28,9 @@ https://web.stanford.edu/~ouster/cgi-bin/book.php
   - [2.1 Complexity defined](#21-complexity-defined)
   - [2.2 Symptoms of complexity](#22-symptoms-of-complexity)
   - [2.3 Cause of complexity](#23-cause-of-complexity)
+  - [2.4 Complexity is incremental](#24-complexity-is-incremental)
+  - [2.5 Conclusion](#25-conclusion)
+- [3: Working Code Isn't Enough (Strategic vs. Tactical Programming)](#3-working-code-isnt-enough-strategic-vs-tactical-programming)
 
 ### Preface
 
