@@ -19,19 +19,6 @@ https://web.stanford.edu/~ouster/cgi-bin/book.php
 - 一連の文の中に論証を見つける．
 - 著者が解決した問題は何か．解決されていない問題は何か．未解決の場合は著者が自覚しているか -->
 
-### 目次
-
-- [Preface](#preface)
-- [1: Introduction](#1-introduction)
-  - [1.1 How to use this book](#11-how-to-use-this-book)
-- [2: The Nature of Complexity](#2-the-nature-of-complexity)
-  - [2.1 Complexity defined](#21-complexity-defined)
-  - [2.2 Symptoms of complexity](#22-symptoms-of-complexity)
-  - [2.3 Cause of complexity](#23-cause-of-complexity)
-  - [2.4 Complexity is incremental](#24-complexity-is-incremental)
-  - [2.5 Conclusion](#25-conclusion)
-- [3: Working Code Isn't Enough (Strategic vs. Tactical Programming)](#3-working-code-isnt-enough-strategic-vs-tactical-programming)
-
 ### Preface
 
 開発をより良くするためにアジャイルなどの開発プロセスやデバッガなどのツールについては議論され続けているが、ソフトウェア設計については十分に議論されていない。  
