@@ -63,6 +63,7 @@
       - バンディット問題の理論とアルゴリズム
       - 効果検証入門
     - Software Engineering
+      - [A Philosophy of Software Design, 2nd Edition](docs/records/technologies/software_engineering/aposd.md)
       - プロになるための Web 技術入門
       - プリンシプル・オブ・プログラミング
       - Effective Java
@@ -150,3 +151,4 @@
     - English Grammar in Use
     - English Vocabulary in Use
     - WORD POWER MAKES EASY
+
